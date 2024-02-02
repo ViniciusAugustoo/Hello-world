@@ -1,11 +1,10 @@
-tempo = 8 
-velocidade = 40
+tempo = float(input('digite o tempo da viagem: ' )) 
+velocidade = float(input('digite a velocidade média: '))
 
 distancia = tempo * velocidade
-print (distancia)
-
-km_por_litro = 12
-
 litros_usados = distancia / 12
 
-print('a quantidade de litros usados é', round(litros_usados, 1))
+print('digite a velocidade média: ', velocidade)
+print('tempo gasto na viagem: ', tempo)
+print('distancia percorrida: ', distancia)
+print('a quantidade de litros: ', round(litros_usados,1))
