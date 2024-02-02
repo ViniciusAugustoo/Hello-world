@@ -1,0 +1,9 @@
+casos_por_doencas = 1444
+numero_de_habitantes = 60000
+casos_por_habitantes = casos_por_doencas / numero_de_habitantes
+
+print(casos_por_habitantes)
+
+// round arredonda os numeros //
+
+print('a quantidade de casos por habitantes é', round(casos_por_habitantes,2))
