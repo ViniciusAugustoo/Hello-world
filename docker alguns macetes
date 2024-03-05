@@ -1,5 +1,5 @@
 //faz o pull da imagem desejada//
-docker pull hello-world 
+docker pull (hello world)
 
 //ver a versao do docker//
 docker version
