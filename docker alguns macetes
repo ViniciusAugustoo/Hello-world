@@ -1,0 +1,23 @@
+//faz o pull da imagem desejada//
+docker pull hello-world 
+
+//ver a versao do docker//
+docker version
+
+// usado para listar as imagens criados //
+docker image ls
+
+//lista os containers//
+docker ps
+
+//usado para subir um container//
+docker run hello-world
+
+//lista todos os containers//
+docker ps -a
+
+//comando usado para parar o container//
+docker stop (id)
+
+//comando usado para excluir um container//
+docker rm ( id doque voce quer excluir)
